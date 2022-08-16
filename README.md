@@ -2,8 +2,7 @@
 
 # To-Do-List Review
 
-> A simple to-do-list project with basic styling. The user can add a task, delete a task, edit a task and delete all completed tasks.
-> The data gets stored in the local storage.
+> A clone of my todo list app which is to be  reviewed by another developer to check if the code is clean, dry and does not contain irrelevant elements.
 
 
 ## Built With
@@ -18,7 +17,7 @@
 
 
 ## Live Site URL: 
-[Link to live Version](https://efiamotu-1.github.io/To-do-list/dist/)
+[Link to live Version](https://efiamotu-1.github.io/To-do-list-review/dist/)
 ## Getting Started
 
 
@@ -30,7 +29,7 @@
 ### Clone this repository
 
 ```
-git clone git clone https://github.com/Efiamotu-1/To-do-list.git
+git clone git clone https://github.com/Efiamotu-1/To-do-list-review.git
 ```
 ### Open the project in the browser
 
