@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eee;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+}
+
+i {
+  color: rgb(148, 139, 139);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.list-div {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 5px 5px 50px 0 rgba(0, 0, 0, 0.02);
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: fantasy;
+  padding: 0.5rem;
+  border-bottom: solid 1px #c0c0c0;
+}
+
+.title h1 {
+  font-weight: 200;
+}
+
+#form {
+  display: flex;
+}
+
+.input-text {
+  padding: 0.4rem;
+  border-bottom: solid 1px #c0c0c0;
+}
+
+.insert-text {
+  width: 100%;
+  padding: 0.4rem;
+  border: none;
+  font-style: italic;
+}
+
+.insert-text:focus-visible {
+  outline: none;
+}
+
+.list-container {
+  list-style: none;
+}
+
+.li-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 10px;
+  border-bottom: solid 1px #c0c0c0;
+}
+
+.li-wrapper input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+}
+
+.li-wrapper input[type="text"] {
+  border: none;
+  outline: none;
+  font-family: fantasy;
+  width: 100%;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+.clear-elements {
+  padding: 15px 0;
+  text-align: center;
+  background-color: #dedede;
+  color: #757575;
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.display-none {
+  display: none;
+}
+
+/* Drag styles */
+
+.selected {
+  border: solid #ccc 3px;
+}
+
+.hovered {
+  border: 2px solid black;
+}
+
+.visible {
+  display: block;
+}
+
+.invisible {
+  display: none;
+}
