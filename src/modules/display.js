@@ -109,7 +109,6 @@ const display = () => {
         };
       });
       localStorage.setItem('todos', JSON.stringify(data.todos));
-      // e.target.parentElement.parentElement.remove();
       display();
     };
 
