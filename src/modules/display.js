@@ -1,4 +1,3 @@
-/* eslint-disable no-plusplus */
 import data from './data.js';
 import { list } from './domElements.js';
 
@@ -74,7 +73,7 @@ const display = () => {
       data.todos = data.todos.map((todo) => ({
         description: todo.description,
         completed: todo.completed,
-        index: count++,
+        index: count + 1,
       }));
       this.classList.remove('hovered');
       localStorage.setItem('todos', JSON.stringify(data.todos));
@@ -98,7 +97,7 @@ const display = () => {
           return {
             description: todo.description,
             completed: todo.completed,
-            index: count++,
+            index: count + 1,
           };
         }
 
